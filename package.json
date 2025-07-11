@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@tailwindcss/postcss": "^4.1.11",
+    "next": "15.3.5",
+    "pg": "^8.16.3",
+    "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "prisma": "^6.11.1"
   }
 }
